@@ -1,1 +1,0 @@
-# Building_Value_Weighted_Telehealth_Index
