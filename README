@@ -1,1 +1,40 @@
-# Building_Value_Weighted_Telehealth_Index
+Building a Value-Weighted Telehealth Index
+
+Table of Contents
+
+    Introduction
+    Install and Import Packages
+    Access Data Using Yahoo Finance API
+    Construct Dataframe for Components
+    Evaluate Component Performance
+    Construct Telehealth Index (Value-Weighted)
+    Benchmark Telehealth Index Against S&P500
+    Index Correlations
+    Export to Excel
+    Future Areas for Analysis
+
+1. Introduction
+
+Telehealth - remote care delivery, patient monitoring, and education / engagement via a broad range of digital technologies such as wearables and remote monitoring devices, live video conferencing, image store and forward systems, and health apps - has long been a growing healthcare modality. COVID-19 has dramatically accelerated its adoption among patients and caregivers, along with supporting regulatory, reimbursement and billing, and data and privacy structures.
+
+Today, we'll explore the potential of investing in telehealth equities by constructing and evaluating a value(cap)-weighted telehealth index.
+
+Business Question: are telehealth equities worth exploring as a high-return investment based on historical performance?
+Data Question: what is the performance of key telehealth stocks and a constructed telehealth index vs. the S&P500 over the past 5 years? (includes normalized returns, rolling returns, mean, std, distribution / spread)
+Data Need: daily close price and volume for select telehealth stocks and S&P500 for the past five years via the Yahoo Finance API (https://pypi.org/project/yfinance/)
+
+We'll focus on the following public companies that are or are expected to be leading in the space:
+
+Teladoc Health (TDOC) - https://www.teladoc.com/
+Livongo Health (LVGO) (IPO'd July 25, 2019) - https://www2.livongo.com/
+One Medical (ONEM) (IPO'd January 30, 2020) - https://www.onemedical.com/
+Zoom (ZM) (IPO'd April 18, 2019)- https://zoom.us/
+Humana (HUM) - http://www.humana.com/
+Anthem (ANTM) - https://www.anthem.com/
+CVS Health (CVS) - https://cvshealth.com/
+iRobot (IRBT) - https://www.irobot.com/
+Castlight Health - https://www.castlighthealth.com/
+
+Our analysis could be useful or any individual or institutional investor exploring telehealth as an investment opportunity. Over the 5-year period from August 26, 2015 to August 26, 2020, our telehealth index below generated a return of 235%, roughly 3x that of the S&P500's 79% return.
+
+Our focus is limited to historical stock performance. Future areas for analysis include valuation based on underlying fundamentals (e.g., earnings, cash flow), managmenent, technology, and business model assessment, market value ratios, and portfolio risk. Additionally, since the index's day-to-day volatility and index correlations would be hard to stomach for most casual investors, it would be good to diversify the index with additional pure-play, diversified medical technology / device (e.g., Medtronic), insurance and payments, healthcare cloud / information systems, and big tech (e.g., Apple) companies.
